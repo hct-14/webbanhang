@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="webbanhang.css">
+    <title>hoangcongthanh</title>
+</head>
+<body>
+    <secsion class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <a  href="webbanhang.html"><img src="./img/logot1.jfif" alt="" width=40%></a>
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <li>Nữ
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory.html">Hàng nữ mới về</a>
+                                </li>
+                                <li>
+                                    <a href="">Hướng dương đón nắng</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo nữ</a>
+                                </li>
+                                <li>
+                                    <a href="">Váy nữ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Nam
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="">Hàng Nam mới về</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Váy nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Quần nam</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Trẻ em</li>
+                        <li>Flast sale</li>
+                        <li>Hot items</li>
+                        <li>Bộ sưu tập</li>
+                        <li>Tin tức</li>
+                        <li><a  href="game3.html">mini game</a> </li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="tìm kiếm">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-user-secret"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-shopping-cart"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </secsion>
+    <!-- -----------------------PRODUCT---------------------------------------------- -->
+    <section class="product">
+       <div class="container">
+            <div class="product-top row">
+                <p>Trang chủ</p> <span>&#8594;</span> <p>Nữ</p><span>&#8594;</span><p>Hàng nữ mới về</p>
+            </div>
+            <div class="product-content row">
+                <div class="product-content-left row">
+                    <div class="product-content-left-big-img">
+
+
+                        <figure class="zoom" style="background:url(./img/pant_bla-1228x1536.jpg.webp    )" onmousemove="zoom(event)" ontouchmove="zoom(event)">
+                            <img src="./img/pant_bla-1228x1536.jpg.webp" />
+                          </figure>
+                          
+                          <script>
+                            function zoom(e) {
+                              var zoomer = e.currentTarget;
+                              e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX
+                              e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX
+                              x = (offsetX / zoomer.offsetWidth) * 100
+                              y = (offsetY / zoomer.offsetHeight) * 100
+                              zoomer.style.backgroundPosition = x + "% " + y + "%";
+                            }
+                          </script>
+                          
+                        <!-- <img src="./img/pant_bla-1228x1536.jpg.webp" alt=""> -->
+                    </div>
+                    <div class="product-content-left-small-img">
+                        <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                        <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                        <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                        <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                    </div>
+                </div>
+                <div class="product-content-right">
+                    <div class="product-content-right-product-name">
+                        <h1>PANTS FLORA BLACK</h1>
+                        <!-- <p>MSP: 41M6545</p> -->
+                    </div>
+                    <div class="product-content-right-product-price">
+                        <p>999.999<sup>đ</sup></p>
+                    </div>
+                    <div class="product-content-right-product-color">
+                        <p><span style="font-weight: bold;">Màu sắc</span>:Đen <span style="color: red;">*</span></p>
+                       <div class="product-content-right-product-color-IMG">
+                        <img src="./img/mauden.png" alt="">
+                       </div>                      
+                    </div>
+                    <div class="product-content-right-product-size">
+                        <p style="font-weight: bold"> Size: </p>
+                        <!-- <div class="size">
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                            <span>XXL</span>
+                        </div> -->
+                        <div class="quantity">
+                            <p style="font-weight: bold"> Số lượng: </p>
+                            <input type="number" min="0" value="1">
+                        </div>
+                        <p style="color: red;">Vui lòng chọn size*</p>
+                    </div>
+                    <div class="size">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+                    <div class="product-content-right-product-button">
+
+                        <a  href="pay.html"><button> <i class="fas fa-shopping-cart"></i> <p>MUA HÀNG</p></button></a>
+
+                         <a  href="https://www.google.com/maps/place/866+%C4%90.+Quang+Trung,+Ph%C3%BA+L%C3%A2m,+H%C3%A0+%C4%90%C3%B4ng,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@20.9555963,105.7535728,17z/data=!3m1!4b1!4m5!3m4!1s0x313452e853622635:0xae9100350be47df1!8m2!3d20.9555963!4d105.7557615"><button><p>TÌM TẠI CỬA HÀNG</p></button></a>
+
+                    </div>
+                    <div class="product-content-right-product-icon">
+                        <div class="product-content-right-product-icon-item">
+                            <i class="fas fa-phone-alt"></i> <p>Hotline</p>
+                        </div>
+                        <div class="product-content-right-product-icon-item">
+                            <i class="far fa-comments"></i> <p>Chat</p>
+                        </div>
+                        <div class="product-content-right-product-icon-item">
+                            <i class="far fa-envelope"></i> <p>Mail</p>
+                        </div>
+                    </div>
+                    <div class="product-content-right-product-QR">
+                        <img src="./img/maqrcode.png" width="10%">
+                    </div>
+                    <div class="product-content-right-bottom">
+                       <div class="product-content-right-bottom-top">
+                        &#8744;
+                       </div> 
+                       <div class="product-content-right-bottom-content-big">
+                            <div class="product-content-right-bottom-title">
+                                <div class="product-content-right-bottom-title-item chitiet">
+                                    <p>Chi tiết</p>
+                                </div>
+
+                             </div>
+                            <div class="product-content-right-bottom-content">
+                                <div class="product-content-right-bottom-content-chitiet">
+                                    <p>Đầm maxi 2 dây thắt nơ. Phần ngực xếp ly đều, eo chiết bản to. Tùng váy xếp lớp tạo xòe. Cài bằng khóa kéo ẩn sau lưng. Vải họa tiết mùa hè <br> <br>
+
+                                        Quyến rũ và nổi bật, đây chắc chắn sẽ là mẫu đầm sẽ giúp nàng tỏa sáng khi diện. Gam màu đơn sắc dễ mặc và kết hợp. Vải Chiffon kết hợp với Lụa tạo cảm giác mềm mại, bay bổng. Thích hợp đi chơi, đi biển, dã ngoại.... <br> <br>
+                                        
+                                        Màu sắc: Họa tiết Cam - Họa tiết Xanh Tím Than - Họa tiết Hồng san hô</p>
+                                </div>
+
+                            </div>
+                       </div>   
+                      
+                    </div>
+                </div>
+                
+            </div>
+       </div>
+    </section>
+    <!-- -------------------------SẢN PHẨM LIÊN QUAN -->
+    <section class="product-related">
+        <div class="container">
+            <div class="product-related-title">
+                <p>MÀU KHÁC</p>
+            </div>
+            <div class="row justify-between">
+                <div class="product-related-item">
+                    <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                    <h1>PANTS FLORA BLACK</h1>
+                    <p>999.999<sup>đ</sup></p>
+                </div>
+                <div class="product-related-item">
+                    <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                    <h1>PANTS FLORA BLACK</h1>
+                    <p>999.999<sup>đ</sup></p>
+                </div>
+                <div class="product-related-item">
+                    <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                    <h1>PANTS FLORA BLACK</h1>
+                    <p>999.999<sup>đ</sup></p>
+                </div>
+                <div class="product-related-item">
+                    <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                    <h1>PANTS FLORA BLACK</h1>
+                    <p>999.999<sup>đ</sup></p>
+                </div>
+                <div class="product-related-item">
+                    <img src="./img/pant_bla-1228x1536.jpg.webp" alt="">
+                    <h1>PANTS FLORA BLACK</h1>
+                    <p>999.999<sup>đ</sup></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------Footer -->
+    <section class="footer">
+        <div class="footer-container">
+            <p>Tải ứng dụng T1 </p>
+            <div class="app-google">
+                <a href=""><img src="./img/appstore.jpg" alt="" ></a>
+                <a href=""> <img src="./img/googleplay.jpg"  alt=""  width 50%></a>
+            </div>
+            <p>Nhận bản tin T1 moda</p>
+            <div class="input-email">
+                <input type="text" placeholder="Nhập email của bạn">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="footer-items">
+                <!-- <li><a href=""><img src="image/dathongbao.png" alt=""></a></li> -->
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <div class="footer-text">
+                Công ty Cổ phần thanhthinhtuan với số đăng ký kinh doanh: +0123456789 <br>
+                Địa chỉ đăng ký: số nhà 866, phường Phú La, Q.Hà Đông, TP.Hà Nội, Việt Nam - 8987654321 <br>
+                Đặt hàng online : 01234656789.
+            </div>
+            <div class="footer-bottom">
+                ©T1 All rights reserved
+            </div>
+        </div>
+    </section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
